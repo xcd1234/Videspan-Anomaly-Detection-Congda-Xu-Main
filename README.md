@@ -7,39 +7,51 @@ For our dataset, because it is recorded in a time series order, I therefore beli
 
 The confusion matrix for the six datasets are:
 
-exchange-2_cpc_results:
+<pre>
+exchange-2_cpc_results:  
          Predicted
-         0      1
-True 0 | 1494 | 129 |
-     1 | 0    | 1   |
+         0      1    
+True 0 | 1494 | 129 |    
+     1 | 0    | 1   |    
+</pre>
 
-exchange-3_cpc_results:
-         Predicted
-         0      1
-True 0 | 1423 | 112 |
-     1 | 1    | 2   |
+<pre>
+exchange-3_cpc_results:  
+         Predicted  
+         0      1  
+True 0 | 1423 | 112 |  
+     1 | 1    | 2   |  
+</pre>
 
-exchange-4_cpc_results:
-         Predicted
-         0      1
-True 0 | 1483 | 157 |
-     1 | 0    | 3   |
-     
-exchange-2_cpm_results:
-         Predicted
-         0      1
-True 0 | 1468 | 154 |
-     1 | 0    | 2   |
+<pre>
+exchange-4_cpc_results:  
+         Predicted  
+         0      1  
+True 0 | 1483 | 157 |  
+     1 | 0    | 3   |  
+</pre>
 
-exchange-3_cpm_results:
-         Predicted
-         0      1
-True 0 | 1418 | 119 |
-     1 | 0    | 1   |
-     
-exchange-4_cpm_results:
-         Predicted
-         0      1
-True 0 | 1461 | 178 |
-     1 | 1    | 3   |
-     
+<pre>
+exchange-2_cpm_results:  
+         Predicted  
+         0      1  
+True 0 | 1468 | 154 |  
+     1 | 0    | 2   |  
+</pre>
+
+<pre>
+exchange-3_cpm_results:  
+         Predicted  
+         0      1  
+True 0 | 1418 | 119 |  
+     1 | 0    | 1   |  
+
+</pre>
+
+<pre>
+exchange-4_cpm_results:  
+         Predicted  
+         0      1  
+True 0 | 1461 | 178 |  
+     1 | 1    | 3   |  
+</pre>
