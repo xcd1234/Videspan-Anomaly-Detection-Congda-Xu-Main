@@ -1,0 +1,6 @@
+---
+hyperparameters:
+  contamination: 0.01
+  n_neighbors: 5
+  length: 24
+...
