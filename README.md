@@ -5,6 +5,11 @@ For my anomaly detection algorithm, the major machine learning package I used is
 
 For our dataset, because it is recorded in a time series order, I therefore believe I should identify anomalies in "periods" instead of at one time identify for the entire dataset. So my algorithm will identify anomaly points for multiple fixed-length time periods of data using KNN in PyOD and then identify those data who got labeld as anomaly at least once in these periods as the final anomaly detection result.
 
+There are three hyperparameters that you can tune:   
+contamination: the threshold for decision function in KNN  
+n_neighbors: the number of neighbors to compare in KNN  
+length: the length of the time period for each KNN model  
+
 The confusion matrix for the six datasets are:
 
 <pre>
